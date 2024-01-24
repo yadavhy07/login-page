@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1533150783171-ce47d5c2b6ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#main #main2{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(240, 248, 255,0.2); */
+    box-sizing: border-box;
+    padding: 2%;
+   
+}
+#main2 #nav{
+    width: 35%;
+    height: 20%;
+    /* background-color: orchid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+#nav .gola{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: rgb(0, 12, 12);
+    position: absolute;
+    left: 45px;
+
+}
+#nav h1{
+    color: #fff;
+}
+#nav a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+    color: #414141;
+}
+#main2 #navmid{
+    width: 35%;
+    height: 15%;
+    /* background-color: aquamarine; */
+    margin-top: 2%;
+    
+}
+#navmid .navmid0{
+    margin-left: 110px;
+   
+    
+}
+.navmid0 pre{
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #414141;
+
+
+}
+.navmid0 h2{
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #fff;
+
+
+}
+.navmid0 p{
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+#main2 .id{
+    width: 35%;
+    height: 30%;
+    /* background-color: blue; */
+}
+.email #input1{
+   
+width: 50%;
+height: 50%;
+margin-bottom: 10px;
+margin-left: 110px;
+margin-top: 10px;
+box-sizing: border-box;
+padding: 10px;
+border-radius: 10%
+
+
+    
+}
+.pass #input2{
+    width: 50%;
+height: 50%;
+margin-left: 110px;
+box-sizing: border-box;
+padding: 10px;
+border-radius: 10%;
+
+
+}
+.btn {
+margin-left: 110px;
+}
+.btn button{
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(65, 65, 130);
+    color: #fff;
+    pointer-events: stroke;
+}
